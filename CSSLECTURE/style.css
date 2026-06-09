@@ -126,3 +126,43 @@ a:visited{
     width: 300px;
     display: inline-block;
 }
+
+/* Float */
+.FRimg{
+    width: 50%;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.FLimg{
+    width: 50%;
+    float: left;
+}
+
+/* Flex */
+.flex{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* top button */
+    justify-content: center;
+    height: 100px;
+    background-color: red;
+}
+/* grid */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: auto auto auto; */
+    color: #ffffff;
+    /* grid-row-gap: 40px; */
+    /* grid-column-gap: 30px; */
+    grid-gap: 30px;
+
+}
+.grid_child{
+    padding: 20px;
+    text-align: center;
+}
