@@ -1,0 +1,25 @@
+place 
+Price
+Package
+Member
+User
+data
+trasformation
+hotel
+
+
+
+
+color(Base on logo) 60% 30% 10%
+font design (user smooth font)
+Icon 
+Image 
+
+in 1web//
+-Header
+navigation=(unique)
+
+-body
+
+
+-footer(unique)
