@@ -1,0 +1,226 @@
+@font-face {
+    font-family: Oswald;
+    src: url(font/Oswald/Oswald-VariableFont_wght.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Oswald;
+}
+/* start nav  */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    box-shadow: 0px 0px 10px rgb(34, 38, 81);
+    background-color: white;
+
+}
+.logo{
+    width: 160px;
+    height: 90px;
+    border-radius: 100px;
+    padding-top: 5px;
+    
+}
+.logo:hover{
+    display: inline-block;
+    transform: translateX(2px);
+    transition: 0.5s;
+    background-color: lightgrey;
+    
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav ul li{
+    margin-left: 50px;
+}
+.nav_item{
+    text-decoration: none;
+    color: rgb(0, 7, 32);
+    font-size: 18px;
+}
+.nav_item:hover{
+    display: inline-block;
+    color: darkblue;
+    transform: translateX(2px);
+    transition: 0.5s;
+}
+/* end nav  */
+/* start service */
+.s_1{
+    background-image: url(img/service.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size:  100%;
+    color: aliceblue;
+    height: 70vh;
+    padding: 0px 40%  0px 5%;
+}
+.s_2{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 100px;
+    padding: 30px 0px 30px 50px;
+    background-color: whitesmoke;
+}
+.s_3{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 100px;
+    padding: 30px 0px 10px 50px;
+    background-color:whitesmoke;
+}
+/* end service */
+
+/* start aboutus */
+.a1{
+     background-image: url(img/abouts.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size:  100%;
+    color: aliceblue;
+    height: 70vh;
+    padding: 0px 40%  0px 5%;
+    margin-top: 10px;
+
+}
+.a2{
+    display: inline-block;
+    justify-content: center;
+    padding: 30px 0px 10px 50px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+
+}
+/* end about */
+
+/* start phone  */
+.p1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+
+    
+}
+.product_card{
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    height: 420px;
+}
+.product_card:hover{
+    transform: translateY(-2px);
+    transition: 0.5s;
+    box-shadow: 0px 2px 5px lightskyblue;
+}
+
+.img{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+.img:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+
+}
+.p1 h3{
+    text-align: left;
+    color: rgb(28, 28, 79);
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+.bt{
+    float: left;
+    text-align: right center;
+    background-color: blue;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+   text-decoration: none;
+}
+.bt:hover{
+    transform: translateY(-2px);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+/* start footer  */
+.footer{
+    box-shadow: 0px 5px 15px rgb(34, 38, 81);
+    margin-top: 50px;
+    
+    background-color: whitesmoke;
+    color: rgb(11, 11, 63);
+}
+.footlogo{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+.footer_content{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    padding: 70px 50px 30px 50px;
+}
+.f_a a{
+    text-decoration: none;
+    color: darkslategray;
+    display: block;
+    margin-top: 5px;
+}
+.f_a a:hover{
+    color: brown;
+    transform: translateY(-2px);
+    transition: 0.5s;
+}
+.f_li ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    gap: 10px;
+    
+}
+.f_social a{
+    display: inline-block;
+    color: blue;
+    font-size: 25px;
+}
+.f_social a:hover{
+   transform: translateY(-2px);
+    color: rgb(139, 60, 73);
+    transition: 0.5s;
+}
+.f_copy p{
+    text-align: center;
+   padding-top: 10px;
+    padding-bottom: 50px;
+}
+.line{
+    border-color: rgb(80, 103, 180);   
+    margin-left: 30px; 
+    margin-right: 30px;
+}
+/* end footer  */
